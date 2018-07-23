@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<!--
+		Website designed by Hunter Ball
+		Contact him at:
+		469-247-7904 
+		Hunter@HunterBall.net
+		-->
+		<title>Contact | Sreenivas Eadara | FSI</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header class = "header-fruit">
+			<h1>Contact</h1>
+		</header>
+		<div class = "nav">
+			<p id = "menuButtonOpen" class = "left no-desktop">&#9776;</p>
+			<p class = "nav-logo no-desktop">Sreenivas Eadara - FSI</p>
+			<span class = "no-mobile">
+				<a href = "index.html">Home</a>
+				<div class = "dropdown">
+					<a href = "about.html">Introduction &#9662;</a>
+					<div class = "content">
+						<a href = "team.html">Methods and Materials</a>
+					</div>
+				</div>
+				<div class = "dropdown">
+					<a href = "join.html">Results &#9662;</a>
+					<div class = "content">
+						<a href = "volunteer.html">Discussion</a>
+						<a href = "donate.html">References</a>
+					</div>
+				</div>
+				<a href = "contact.html">Contact</a>
+			</span>
+		</div>
+		<div class = "nav-mobile no-desktop">
+			<a class = "close" id = "menuButtonClose">&#128473;</a>
+			<h2>Sreenivas Eadara - FSI</h2>
+			<div class = "nav-break"><hr></div>
+			<a href = "index.html">Home</a>
+			<a href = "about.html">Introduction</a>
+			<a href = "team.html">Methods and Materials</a>
+			<hr>
+			<a href = "join.html">Results</a>
+			<a href = "volunteer.html">Discussion</a>
+			<a href = "donate.html">References</a>
+			<hr>
+			<a href = "contact.html">Contact</a>
+		</div>
+		<div class = "container white">
+			<h2>About</h2>
+			<p><em>Hello!</em></p>
+			<p>I am Sreenivas Eadara, and I am a Friend of FSI scholar of the Frontiers of Science Institute of the University of Northern Colorado in Greeley.
+			<br><br>I am proud to present to you the topic of my research, Effects of Creatine Supplementation and Doxorubicin Treatment on Myogenic Regulatory Factor Expression in Slow and Fast Twitch Muscle!
+			</p>
+			<p>Email: sreeni.eadara@gmail.com
+			<br> Phone: 720-460-1881
+			</p>
+			<h2>Acknowledgements</h2>
+			<p>Mentor: Mr. Zoltan Torok
+			<br>Advisor: Ms. Viva Rase
+			<br>Research Partner: Anahi Gutierrez
+			<br>Thanks to: Dr. David Hydock, Ms. Raquel Busekrus, Ms. Lori Ball
+			<br><br><strong>None of this research could be possible without the support of my scholar sponsor and research sponsor, Friend of FSI and Xcel Energy. I sincerely thank you for your generosity.</strong>
+			</p>
+			<img class = "fourth" src = "images/XcelEnergy.PNG">
+		</div>
+		<!--<div class = "half left blue">
+			<form action = "https://formspree.io/roundnround01@gmail.com" method = "POST">
+				<h3>Contact Form</h3>
+				<input name = "name" type = "text" placeholder = "*Name" required>
+				<input name = "email" type = "email" placeholder = "*Email Address" required>
+				<input type = "text" name = "number" placeholder = "Phone Number">
+				<br>
+				<span>*I am...</span><br>
+				<select name = "type" required>
+					<option value = "volunteer">Possible Volunteer</option>
+					<option value = "recipient">Possible Food Recipient/Distributor</option>
+					<option value = "Supplier">Possible Food Supplier</option>
+					<option value = "other">Other</option>
+				</select>
+				<br><br>
+				<span>*Reason for contact:</span>
+				<input name = "content" type = "text" class = "large-text" required>
+				<input type="submit" name="Submit" id="submit" value="Submit" />
+			</form>
+		</div>-->
+		<div class = "clear"></div>
+		<footer>
+			<img class = "fourth" src = "images/MAST.png">
+			<h6 class = "footer-menu"><a href = "index.html">Home</a>  |  <a href = "about.html">Introduction</a>  |  <a href = "join.html">Results</a>  |  <a href = "contact.html">Contact</a></h6>
+			<p class = "small">Website designed by <a class = "small" href = "https://hunterball.net">Hunter Ball</a> and modified by Sreenivas Eadara.</p>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			$('#menuButtonOpen').click(function() {
+				$('.nav-mobile').addClass("active");
+			});
+			$("#menuButtonClose").click(function() {
+				$(".nav-mobile").removeClass("active");
+			});
+		</script>
+	</body>
+</html>
